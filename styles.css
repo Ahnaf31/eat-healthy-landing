@@ -1,10 +1,68 @@
 .colour{
-    color: orange;
+    background: -webkit-linear-gradient(orange,red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     }
 
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: 0px;
 }
 
+section {
+    display: flex;
+}
+
+h1{
+    font-size: 60px;
+    line-height: 0.5;
+    color: gray;
+}
+p{
+    color: gray;
+}  
+
+.first-section{
+   
+    width: 50%;
+}
+
+.text-placing{
+margin-top: 250px;
+padding-left: 100px;
+}
+
+.image-placing{
+    margin-top: 50px;
+    margin-right: 50px;
+   
+}
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(orange,red);
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+
+#image {
+    width: 60%;
+    margin: 50px;
+    margin-left: 200px;
+    padding-top: 18px;
+}
+.text-allignment {
+margin-top: 120px;
+padding-left: 100px;
+text-align: start;
+padding-right: 50px;
+
+}
+
+.background{
+    background-image:url(Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
